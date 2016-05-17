@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A6399DD1CEB3BB0001230F4 /* User 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A6399DC1CEB3BB0001230F4 /* User 2.png */; };
+		4A8919911CEB2E5100D415F9 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8919901CEB2E5100D415F9 /* MapViewController.m */; };
+		4A8919931CEB2EBD00D415F9 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A8919921CEB2EBD00D415F9 /* MapKit.framework */; };
+		4A8919951CEB2ECA00D415F9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A8919941CEB2ECA00D415F9 /* CoreLocation.framework */; };
+		4AB7145A1CE9EFF700156095 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB714591CE9EFF700156095 /* main.m */; };
+		4AB7145D1CE9EFF700156095 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB7145C1CE9EFF700156095 /* AppDelegate.m */; };
+		4AB714601CE9EFF700156095 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB7145F1CE9EFF700156095 /* ViewController.m */; };
+		4AB714631CE9EFF700156095 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AB714611CE9EFF700156095 /* Main.storyboard */; };
+		4AB714651CE9EFF700156095 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AB714641CE9EFF700156095 /* Assets.xcassets */; };
+		4AB714681CE9EFF700156095 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AB714661CE9EFF700156095 /* LaunchScreen.storyboard */; };
+		4AB714711CE9F43500156095 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB714701CE9F43500156095 /* RootViewController.m */; };
+		4AB714771CE9F77A00156095 /* SideTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB714761CE9F77A00156095 /* SideTableViewController.m */; };
+		4AB7147B1CE9F81B00156095 /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB7147A1CE9F81B00156095 /* TabBarViewController.m */; };
+		4AB7147E1CE9F86300156095 /* home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AB7147D1CE9F86300156095 /* home.storyboard */; };
+		782B62F9A8EA04282C68F723 /* libPods-SuiEGo-01_Test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 404201BD37F98284A8FDD8B5 /* libPods-SuiEGo-01_Test.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		404201BD37F98284A8FDD8B5 /* libPods-SuiEGo-01_Test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SuiEGo-01_Test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A6399DC1CEB3BB0001230F4 /* User 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "User 2.png"; sourceTree = "<group>"; };
+		4A89198F1CEB2E5100D415F9 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		4A8919901CEB2E5100D415F9 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		4A8919921CEB2EBD00D415F9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		4A8919941CEB2ECA00D415F9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		4AB714551CE9EFF700156095 /* SuiEGo-01_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SuiEGo-01_Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AB714591CE9EFF700156095 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4AB7145B1CE9EFF700156095 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4AB7145C1CE9EFF700156095 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4AB7145E1CE9EFF700156095 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4AB7145F1CE9EFF700156095 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4AB714621CE9EFF700156095 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4AB714641CE9EFF700156095 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4AB714671CE9EFF700156095 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4AB714691CE9EFF700156095 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AB7146F1CE9F43500156095 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		4AB714701CE9F43500156095 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		4AB714751CE9F77A00156095 /* SideTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideTableViewController.h; sourceTree = "<group>"; };
+		4AB714761CE9F77A00156095 /* SideTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideTableViewController.m; sourceTree = "<group>"; };
+		4AB714791CE9F81B00156095 /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
+		4AB7147A1CE9F81B00156095 /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
+		4AB7147D1CE9F86300156095 /* home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = home.storyboard; sourceTree = "<group>"; };
+		9BFF5B3675ACF6C2CBD075C3 /* Pods-SuiEGo-01_Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuiEGo-01_Test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SuiEGo-01_Test/Pods-SuiEGo-01_Test.debug.xcconfig"; sourceTree = "<group>"; };
+		E5F5010F37F6C144C04A4F62 /* Pods-SuiEGo-01_Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuiEGo-01_Test.release.xcconfig"; path = "Pods/Target Support Files/Pods-SuiEGo-01_Test/Pods-SuiEGo-01_Test.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4AB714521CE9EFF700156095 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A8919951CEB2ECA00D415F9 /* CoreLocation.framework in Frameworks */,
+				4A8919931CEB2EBD00D415F9 /* MapKit.framework in Frameworks */,
+				782B62F9A8EA04282C68F723 /* libPods-SuiEGo-01_Test.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A89198E1CEB2E2200D415F9 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				4A89198F1CEB2E5100D415F9 /* MapViewController.h */,
+				4A8919901CEB2E5100D415F9 /* MapViewController.m */,
+			);
+			name = Map;
+			sourceTree = "<group>";
+		};
+		4AB7144C1CE9EFF700156095 = {
+			isa = PBXGroup;
+			children = (
+				4AB714571CE9EFF700156095 /* SuiEGo-01_Test */,
+				4AB714781CE9F7D500156095 /* Main */,
+				4AB7147C1CE9F83700156095 /* Home */,
+				4AB714561CE9EFF700156095 /* Products */,
+				C2FED9BC2344612CBCFDD1FE /* Pods */,
+				6AEEF559A0576952CFAAC1E7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4AB714561CE9EFF700156095 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AB714551CE9EFF700156095 /* SuiEGo-01_Test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4AB714571CE9EFF700156095 /* SuiEGo-01_Test */ = {
+			isa = PBXGroup;
+			children = (
+				4AB7145B1CE9EFF700156095 /* AppDelegate.h */,
+				4AB7145C1CE9EFF700156095 /* AppDelegate.m */,
+				4AB7145E1CE9EFF700156095 /* ViewController.h */,
+				4AB7145F1CE9EFF700156095 /* ViewController.m */,
+				4AB714691CE9EFF700156095 /* Info.plist */,
+				4AB714581CE9EFF700156095 /* Supporting Files */,
+			);
+			path = "SuiEGo-01_Test";
+			sourceTree = "<group>";
+		};
+		4AB714581CE9EFF700156095 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4AB714591CE9EFF700156095 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4AB714781CE9F7D500156095 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				4A89198E1CEB2E2200D415F9 /* Map */,
+				4AB714611CE9EFF700156095 /* Main.storyboard */,
+				4AB7146F1CE9F43500156095 /* RootViewController.h */,
+				4AB714701CE9F43500156095 /* RootViewController.m */,
+				4AB714751CE9F77A00156095 /* SideTableViewController.h */,
+				4AB714761CE9F77A00156095 /* SideTableViewController.m */,
+				4AB714791CE9F81B00156095 /* TabBarViewController.h */,
+				4AB7147A1CE9F81B00156095 /* TabBarViewController.m */,
+			);
+			name = Main;
+			path = "SuiEGo-01_Test";
+			sourceTree = "<group>";
+		};
+		4AB7147C1CE9F83700156095 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				4AB7147D1CE9F86300156095 /* home.storyboard */,
+				4AB714661CE9EFF700156095 /* LaunchScreen.storyboard */,
+				4A6399DC1CEB3BB0001230F4 /* User 2.png */,
+				4AB714641CE9EFF700156095 /* Assets.xcassets */,
+			);
+			name = Home;
+			path = "SuiEGo-01_Test";
+			sourceTree = "<group>";
+		};
+		6AEEF559A0576952CFAAC1E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A8919941CEB2ECA00D415F9 /* CoreLocation.framework */,
+				4A8919921CEB2EBD00D415F9 /* MapKit.framework */,
+				404201BD37F98284A8FDD8B5 /* libPods-SuiEGo-01_Test.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2FED9BC2344612CBCFDD1FE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9BFF5B3675ACF6C2CBD075C3 /* Pods-SuiEGo-01_Test.debug.xcconfig */,
+				E5F5010F37F6C144C04A4F62 /* Pods-SuiEGo-01_Test.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4AB714541CE9EFF700156095 /* SuiEGo-01_Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AB7146C1CE9EFF700156095 /* Build configuration list for PBXNativeTarget "SuiEGo-01_Test" */;
+			buildPhases = (
+				D0A04F004A347C9A66444010 /* 📦 Check Pods Manifest.lock */,
+				4AB714511CE9EFF700156095 /* Sources */,
+				4AB714521CE9EFF700156095 /* Frameworks */,
+				4AB714531CE9EFF700156095 /* Resources */,
+				E0953115282A72A5536A0D1A /* 📦 Embed Pods Frameworks */,
+				B7909E560CE466D9370E1B66 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SuiEGo-01_Test";
+			productName = "SuiEGo-01_Test";
+			productReference = 4AB714551CE9EFF700156095 /* SuiEGo-01_Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4AB7144D1CE9EFF700156095 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "梦茹";
+				TargetAttributes = {
+					4AB714541CE9EFF700156095 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 4AB714501CE9EFF700156095 /* Build configuration list for PBXProject "SuiEGo-01_Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4AB7144C1CE9EFF700156095;
+			productRefGroup = 4AB714561CE9EFF700156095 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4AB714541CE9EFF700156095 /* SuiEGo-01_Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4AB714531CE9EFF700156095 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AB714681CE9EFF700156095 /* LaunchScreen.storyboard in Resources */,
+				4AB714651CE9EFF700156095 /* Assets.xcassets in Resources */,
+				4AB714631CE9EFF700156095 /* Main.storyboard in Resources */,
+				4A6399DD1CEB3BB0001230F4 /* User 2.png in Resources */,
+				4AB7147E1CE9F86300156095 /* home.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B7909E560CE466D9370E1B66 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SuiEGo-01_Test/Pods-SuiEGo-01_Test-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0A04F004A347C9A66444010 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E0953115282A72A5536A0D1A /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SuiEGo-01_Test/Pods-SuiEGo-01_Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AB714511CE9EFF700156095 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AB714771CE9F77A00156095 /* SideTableViewController.m in Sources */,
+				4AB714601CE9EFF700156095 /* ViewController.m in Sources */,
+				4AB7145D1CE9EFF700156095 /* AppDelegate.m in Sources */,
+				4AB714711CE9F43500156095 /* RootViewController.m in Sources */,
+				4AB7147B1CE9F81B00156095 /* TabBarViewController.m in Sources */,
+				4AB7145A1CE9EFF700156095 /* main.m in Sources */,
+				4A8919911CEB2E5100D415F9 /* MapViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4AB714611CE9EFF700156095 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AB714621CE9EFF700156095 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4AB714661CE9EFF700156095 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AB714671CE9EFF700156095 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4AB7146A1CE9EFF700156095 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4AB7146B1CE9EFF700156095 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4AB7146D1CE9EFF700156095 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BFF5B3675ACF6C2CBD075C3 /* Pods-SuiEGo-01_Test.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "SuiEGo-01_Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.SuiEGo-01-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4AB7146E1CE9EFF700156095 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5F5010F37F6C144C04A4F62 /* Pods-SuiEGo-01_Test.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "SuiEGo-01_Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.SuiEGo-01-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4AB714501CE9EFF700156095 /* Build configuration list for PBXProject "SuiEGo-01_Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AB7146A1CE9EFF700156095 /* Debug */,
+				4AB7146B1CE9EFF700156095 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AB7146C1CE9EFF700156095 /* Build configuration list for PBXNativeTarget "SuiEGo-01_Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AB7146D1CE9EFF700156095 /* Debug */,
+				4AB7146E1CE9EFF700156095 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4AB7144D1CE9EFF700156095 /* Project object */;
+}
